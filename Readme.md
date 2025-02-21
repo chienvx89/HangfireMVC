@@ -20,7 +20,7 @@ Tham khảo link : https://code-maze.com/hangfire-with-asp-net-core/
 cài theo hướng dẫn này https://code-maze.com/hangfire-with-asp-net-core/
 	1. Install-Package Hangfire
 	2. Install-Package System.Data.SqlClient => để hangfire làm việc với sql
-	
+	3. Cứ làm theo link hướng dẫn tham khảo ở trên
 
 # Bổ sung vào program để đảm bảo job được thực hiện mà ko đứng chờ mãi ở enque:
       builder.Services.AddHangfireServer();
